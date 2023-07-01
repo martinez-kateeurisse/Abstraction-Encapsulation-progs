@@ -38,7 +38,14 @@ class Fan():
     def get_color(self):
         return self.__color
     #Create setter methods
-
+    def set_age(self, speed):
+        self.__speed = speed
+    def set_power(self, on):
+        self.__on = on
+    def set_radius(self, radius):
+        self.__radius = radius
+    def set_color(self, color):
+        self.__color = color
 #Add a constructor
 #Write a test program
     #Create two fan objects

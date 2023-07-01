@@ -12,4 +12,8 @@ print("Fan Color:", fan1.get_color())
 print("Fan Power (On):", fan1.get_power())
 
 fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
-
+print("FAN 2 - STATUS")
+print("Fan Speed:", fan2.get_speed())
+print("Fan Radius:", fan2.get_radius())
+print("Fan Color:", fan2.get_color())
+print("Fan Power (On):", fan2.get_power())

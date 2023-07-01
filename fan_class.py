@@ -9,3 +9,16 @@
 #The accessor(getters)  and mutator(setters)  methods for all four data fields.
 #A constructor that creates a fan with the specified speed (default SLOW), radius (default 5), color (default blue), and on (default False).
 #Write a test program named TestFan that creates two Fan objects. For the first object, assign the maximum speed, radius 10, color yellow, and turn it on. Assign medium speed, radius 5, color blue, and turn it off for the second object. Display each object’s speed, radius, color, and on properties.
+
+#Create a class
+    #Create three constants for fan speed
+    #Create a private int data (fan speed)
+    #Create a private bool data (fan power(on/off))
+    #Create a private float data (fan radius)
+    #Create a private string data (fan color)
+    #Create getter methods
+    #Create setter methods
+
+#Add a constructor
+#Write a test program
+    #Create two fan objects

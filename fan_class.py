@@ -29,6 +29,14 @@ class Fan():
     def fan_color (self, color):
         self.__color = input(str("Specify Fan Color: "))
     #Create getter methods
+    def get_speed(self):
+        return self.__speed
+    def get_power(self):
+        return self.__on
+    def get_radius(self):
+        return self.__radius
+    def get_color(self):
+        return self.__color
     #Create setter methods
 
 #Add a constructor

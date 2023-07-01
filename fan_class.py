@@ -18,7 +18,7 @@ class Fan():
     FAST = 3
 
     #Add a constructor
-    def __init__(self, speed = SLOW, radius = 5, color = "blue", on = False ):
+    def __init__(self, speed = 1, radius = 5, color = "blue", on = False ):
         self.__speed = speed
         self.__radius = radius
         self.__color = color
@@ -28,7 +28,7 @@ class Fan():
     def fan_speed (self, speed):
         self.__speed = input(int("Specify Fan Speed: "))
     #Create a private bool data (fan power(on/off))
-    def fan_power (self, on):
+    def fan_power (self):
         self.__on = False 
     #Create a private float data (fan radius)
     def fan_radius (self, radius):

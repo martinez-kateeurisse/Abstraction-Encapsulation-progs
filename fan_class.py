@@ -1,5 +1,6 @@
 #Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation -Program 1
 
+#General program instruction
 #(The Fan class).  Design a class named Fan to represent a fan. The class contains:
 #Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, and 3 to denote the fan speed.
 #A private int data field named speed that specifies the speed of the fan.
@@ -36,6 +37,7 @@ class Fan():
     #Create a private string data (fan color)
     def fan_color (self, color):
         self.__color = input(str("Specify Fan Color: "))
+    
     #Create getter methods
     def get_speed(self):
         return self.__speed
@@ -45,6 +47,7 @@ class Fan():
         return self.__radius
     def get_color(self):
         return self.__color
+    
     #Create setter methods
     def set_age(self, speed):
         self.__speed = speed
@@ -54,6 +57,3 @@ class Fan():
         self.__radius = radius
     def set_color(self, color):
         self.__color = color
-
-#Write a test program
-    #Create two fan objects

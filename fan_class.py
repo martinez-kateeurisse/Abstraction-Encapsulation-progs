@@ -26,6 +26,8 @@ class Fan():
     def fan_radius (self, radius):
         self.__radius = input(float("Specify Fan Radius: "))
     #Create a private string data (fan color)
+    def fan_color (self, color):
+        self.__color = input(str("Specify Fan Color: "))
     #Create getter methods
     #Create setter methods
 

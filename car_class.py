@@ -16,3 +16,19 @@
 #The get_speed method should return the current speed.
 
 #Next, design a program that creates a Car object then calls the accelerate method five times. After each call to the accelerate method, get the current speed of the car and display it. Then call the brake method five times. After each call to the brake method, get the current speed of the car and display it.
+
+
+#Create a Car Class
+#Create data attributes
+    #Year model
+    #Make of the car
+    #Speed
+#Add a constructor
+#Create accelerate method
+#Create break method
+#Return the speed 
+
+#Next, design a program that creates a Car object then calls the accelerate method five times.
+#After each call to the accelerate method ,get the current speed of the car and display it. 
+#Then call the brake method five times. 
+#After each call to the brake method, get the current speed of the car and display it.

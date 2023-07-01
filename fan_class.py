@@ -23,6 +23,8 @@ class Fan():
     def fan_power (self, on):
         self.__on = False 
     #Create a private float data (fan radius)
+    def fan_radius (self, radius):
+        self.__radius = input(float("Specify Fan Radius: "))
     #Create a private string data (fan color)
     #Create getter methods
     #Create setter methods

@@ -16,6 +16,14 @@ class Fan():
     SLOW = 1
     MEDIUM = 2
     FAST = 3
+
+    #Add a constructor
+    def __init__(self, speed = SLOW, radius = 5, color = "blue", on = False ):
+        self.__speed = speed
+        self.__radius = radius
+        self.__color = color
+        self.__on = on
+
     #Create a private int data (fan speed)
     def fan_speed (self, speed):
         self.__speed = input(int("Specify Fan Speed: "))
@@ -46,6 +54,6 @@ class Fan():
         self.__radius = radius
     def set_color(self, color):
         self.__color = color
-#Add a constructor
+
 #Write a test program
     #Create two fan objects

@@ -20,6 +20,8 @@ class Fan():
     def fan_speed (self, speed):
         self.__speed = input(int("Specify Fan Speed: "))
     #Create a private bool data (fan power(on/off))
+    def fan_power (self, on):
+        self.__on = False 
     #Create a private float data (fan radius)
     #Create a private string data (fan color)
     #Create getter methods

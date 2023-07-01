@@ -13,6 +13,9 @@
 #Create a class
 class Fan():
     #Create three constants for fan speed
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
     #Create a private int data (fan speed)
     #Create a private bool data (fan power(on/off))
     #Create a private float data (fan radius)

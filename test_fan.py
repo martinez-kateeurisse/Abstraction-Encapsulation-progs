@@ -2,18 +2,13 @@
 
 #Import fan class
 from fan_class import Fan
+from fan_ui import UserInterface
+
+#Initializing class
+ui = UserInterface()
 
 #Create two fan objects
-fan1 = Fan(Fan.FAST, 10, "yellow", True)
-print("\nFAN 1 - STATUS")
-print("Fan Speed:", fan1.get_speed())
-print("Fan Radius:", fan1.get_radius())
-print("Fan Color:", fan1.get_color())
-print("Fan Power (On):", fan1.get_power())
-
-fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
-print("\nFAN 2 - STATUS")
-print("Fan Speed:", fan2.get_speed())
-print("Fan Radius:", fan2.get_radius())
-print("Fan Color:", fan2.get_color())
-print("Fan Power (On):", fan2.get_power())
+#Object 1
+ui.obj1_display()
+#Object 2
+ui.obj2_display()

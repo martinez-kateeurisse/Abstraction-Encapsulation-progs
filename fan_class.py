@@ -26,6 +26,7 @@ class Fan():
         self.__on = on
 
     #Create a private int data (fan speed)
+    #Can be used when modified into a user-interactive program
     def fan_speed (self, speed):
         self.__speed = input(int("Specify Fan Speed: "))
     #Create a private bool data (fan power(on/off))

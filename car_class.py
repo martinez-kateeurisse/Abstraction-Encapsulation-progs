@@ -28,13 +28,16 @@ class Car():
         self.__make = make  #Make of the car
         self.__speed = speed  #Speed
 
-#Create accelerate method
+    #Create accelerate method
     def accelerate(self, speed):
         self.__speed = speed + 5
-#Create break method
-    def brake(self, speed):
-        self.__speed = speed - 5
-#Return the speed 
+    #Create break method
+    def brake(self):
+        if self.__speed >= 5:
+            self.__speed -= 5
+        else:
+            self.__speed = 0
+    #Return the speed 
     def get_speed(self):
         return self.__speed
 

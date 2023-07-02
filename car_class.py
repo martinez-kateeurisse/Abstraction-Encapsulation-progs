@@ -1,4 +1,4 @@
-#Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation -Program 2
+#Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation - Program 2
 
 #A python program that include a car class with three attributes (year model, make and speed) and 3 methods (accelerate, brake, get_speed).
 #General instructions for this program can be seen in the readme file.

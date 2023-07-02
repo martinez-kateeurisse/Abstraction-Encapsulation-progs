@@ -1,3 +1,5 @@
+#Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation -Program 2
+
 #This Python file will serve as the testing/main program that needs to be run.
 #Wherein the accelerate method and brake method should be called five times each, and speed should be displayed each time.
 
@@ -28,6 +30,7 @@ for i in range (5):
     print(f"{Fore.LIGHTGREEN_EX}\nAccelerating...(+ 5 speed)\n")
     print(f"{Fore.LIGHTYELLOW_EX}Current Speed: " + str(speed))
     print(speed*"▄▄")
+
 #Call the brake method (5 times)
 for i in range (5):
     test_car.brake()

@@ -29,8 +29,8 @@ class Car():
         self.__speed = speed  #Speed
 
     #Create accelerate method
-    def accelerate(self, speed):
-        self.__speed = speed + 5
+    def accelerate(self):
+        self.__speed += 5
     #Create break method
     def brake(self):
         if self.__speed >= 5:
@@ -40,8 +40,3 @@ class Car():
     #Return the speed 
     def get_speed(self):
         return self.__speed
-
-#Next, design a program that creates a Car object then calls the accelerate method five times.
-#After each call to the accelerate method ,get the current speed of the car and display it. 
-#Then call the brake method five times. 
-#After each call to the brake method, get the current speed of the car and display it.

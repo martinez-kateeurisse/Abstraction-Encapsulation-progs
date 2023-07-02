@@ -21,11 +21,13 @@
 
 #Create a Car Class
 class Car():
-#Create data attributes
-    #Year model
-    #Make of the car
-    #Speed
 #Add a constructor
+    def __init__ (self, year_model, make, speed=0):
+    #Create data attributes
+        self.__year_model = year_model #Year model
+        self.__make = make  #Make of the car
+        self.__speed = speed  #Speed
+
 #Create accelerate method
 #Create break method
 #Return the speed 

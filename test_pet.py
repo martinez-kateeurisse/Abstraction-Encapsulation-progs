@@ -23,3 +23,6 @@ ui.pet_age()
 
 #Displaying pet's details
 ui.pet_details()
+
+#Program footer
+design.program_footer()

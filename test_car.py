@@ -30,3 +30,6 @@ for i in range (5):
     #Display speed (each time)
     print("Brake...(- 5 speed)")
     print("Current Speed: " + str(speed))
+
+#Program footer
+design.program_footer()

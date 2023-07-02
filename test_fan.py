@@ -17,3 +17,6 @@ design.fan_header()
 ui.obj1_display()
 #Object 2
 ui.obj2_display()
+
+#Program footer
+design.program_footer()

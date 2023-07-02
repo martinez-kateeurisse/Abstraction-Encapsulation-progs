@@ -1,5 +1,6 @@
 #Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation -Program 2
 
+#Program General instructions
 #Write a class named Car that has the following data attributes:
 #• _ _year_model (for the car’s year model)
 #• _ _make (for the make of the car)
@@ -19,6 +20,7 @@
 
 
 #Create a Car Class
+class Car():
 #Create data attributes
     #Year model
     #Make of the car

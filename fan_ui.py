@@ -28,7 +28,6 @@ class UserInterface():
         power_info = info.renderText("On" if self.fan1.get_power() else "Off")  #Fan 1 Power
 
         # Printing Fan 1 details
-        print("\n", "="*35, "'n")
         print(Fore.LIGHTYELLOW_EX + fan1_status)
         print(Fore.CYAN + speed_title)
         print(Fore.LIGHTMAGENTA_EX + speed_info)        

@@ -11,8 +11,9 @@ from progs_design import ProgramDesign
 ui = UserInterface()
 design = ProgramDesign()
 
-#Program header
+#Program Introduction
 design.pet_header()
+design.greetings()
 design.loading_bar()
 
 #Setting pet's name through user's input

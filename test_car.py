@@ -9,8 +9,9 @@ from colorama import Back, Fore, Style
 #Initialize class variable
 design = ProgramDesign()
 
-#Program header
+#Program Introduction
 design.car_header()
+design.greetings()
 design.loading_bar()
 
 #Create car object

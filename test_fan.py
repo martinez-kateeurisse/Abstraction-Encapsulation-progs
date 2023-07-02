@@ -9,8 +9,9 @@ from progs_design import ProgramDesign
 ui = UserInterface()
 design = ProgramDesign()
 
-#Program header
+#Program introduction
 design.fan_header()
+design.greetings()
 design.loading_bar()
 
 #Create two fan objects

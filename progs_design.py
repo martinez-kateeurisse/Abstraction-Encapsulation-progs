@@ -81,3 +81,10 @@ class ProgramDesign():
 
             # Clear the previous line and print the cat
             print('\033[F' + cat)
+
+    def greetings (self):
+    #Asking the user's name and printing a greeting
+        print("//" * 20)
+        name = input(f"{Fore.RED} Enter your name: "+ Fore.RESET)
+        print("//"*20, "\n\n") 
+        print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(105, "*") + Back.RESET, "\n")

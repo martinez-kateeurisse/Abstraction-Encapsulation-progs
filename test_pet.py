@@ -11,5 +11,6 @@ name = input("Please enter the pet's name: ")
     # Ask user to enter the type
 animal_type = input("Please enter the pet's animal type: ")
     # Ask user to enter the age
+age = float(input("Please enter pet's age: "))
 #Store the data as object attributes
 #Use methods to retrieve and display output

@@ -11,6 +11,10 @@ class UserInterface():
         self.fan1 = Fan(Fan.FAST, 10, "yellow", True)
         #Fan 2 status' values
         self.fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
+    
+    #Program brief instruction
+    def prog_instructions(self):
+        print("\nThis program will display the status of Fan 1 and Fan 2 (speed, radius, color, power)\n")
 
     #Defining fan 1 output
     def obj1_displays(self):

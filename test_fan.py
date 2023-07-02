@@ -10,9 +10,10 @@ ui = UserInterface()
 design = ProgramDesign()
 
 #Program introduction
-design.fan_header()
-design.greetings()
-design.loading_bar()
+design.fan_header() 
+design.greetings() 
+ui.prog_instructions() 
+design.loading_bar() 
 
 #Create two fan objects
 #Object 1

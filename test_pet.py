@@ -14,6 +14,7 @@ design = ProgramDesign()
 #Program Introduction
 design.pet_header()
 design.greetings()
+ui.prog_instructions()
 design.loading_bar()
 
 #Setting pet's name through user's input

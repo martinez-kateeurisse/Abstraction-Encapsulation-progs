@@ -12,6 +12,8 @@ design = ProgramDesign()
 #Program Introduction
 design.car_header()
 design.greetings()
+#Program brief instruction
+print("This program will use accelerate 5 times and brake 5 times, then showing the speed each time.\n")
 design.loading_bar()
 
 #Create car object

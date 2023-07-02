@@ -10,6 +10,10 @@ class UserInterface():
     def __init__(self):
         self.pet = Pet(" "," "," ")
     
+    #Program brief instruction
+    def prog_instructions(self):
+        print("\nThis program will ask for your pet's name, animal type, and age. Then, display the given details\n")
+
     #Asking for user inputs and setting values
     def pet_name (self):
         # Ask user to enter the name

@@ -60,3 +60,26 @@ class ProgramDesign():
         print("LOADING PROGRAM")
         for i in tqdm(range(50)):
             sleep(0.05)
+    
+    def details_loading(self):
+        from tqdm import tqdm
+        import time
+
+        # Set the total number of iterations for the loading bar
+        total_iterations = 3
+
+        # Define the ASCII art for the cat
+        cat = r'''
+        /\_/\  
+        ( o.o ) 
+        > ^ <
+        '''
+        # Create a loop using tqdm to track the progress
+        for i in tqdm(range(total_iterations), desc="Loading", unit="iteration"):
+            # Simulate some work being done
+            time.sleep(0.1)
+
+            # Clear the previous line and print the cat
+            print('\033[F' + cat)
+pd = ProgramDesign()
+pd.details_loading()

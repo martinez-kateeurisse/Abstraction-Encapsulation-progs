@@ -4,6 +4,7 @@
 from pet_class import Pet
 from colorama import Back, Fore, Style 
 from pyfiglet import Figlet
+
 #Create a class
 class UserInterface():
     #Initialize object values to store the data 
@@ -56,11 +57,10 @@ class UserInterface():
         print(Fore.LIGHTCYAN_EX + age_title) 
         print(Fore.LIGHTRED_EX + age_output)
 
-    #Displaying output when executing in pygame
+    #Displaying output when executing in pygame(can be used if modified)
     def pet_detail(self):
         details = "\nPET DETAILS\n"
         details += f"Pet's Name: {self.pet.get_name()}\n"
         details += f"Pet's Animal Type: {self.pet.get_animal_type()}\n"
         details += f"Pet's Age: {self.pet.get_age()}"
         return details
-         

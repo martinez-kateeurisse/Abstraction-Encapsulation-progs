@@ -1,3 +1,5 @@
+#Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation -Program 3
+
 #This python file will serve as the main file that will be run.
 
 #A python program that lets the user input the pet's name, type ,and age. Then, displaying them through certain methods.

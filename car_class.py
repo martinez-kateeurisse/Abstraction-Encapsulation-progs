@@ -29,6 +29,8 @@ class Car():
         self.__speed = speed  #Speed
 
 #Create accelerate method
+    def accelerate(self, speed):
+        self.__speed = speed + 5
 #Create break method
 #Return the speed 
 

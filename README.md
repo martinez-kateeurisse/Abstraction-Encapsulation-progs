@@ -79,3 +79,27 @@ This method returns the value of the _ _animal_type field.
 This method returns the value of the _ _age field.
 
 Once you have written the class, write a program that creates an object of the class and prompts the user to enter the name, type, and age of his or her pet. This data should be stored as the object’s attributes. Use the object’s accessor methods to retrieve the pet’s name, type, and age and display this data on the screen.
+
+## Repository Files Instructions
+* Class files (fan_class.py, car_class.py, and pet_class.py) include the methods to be used in the given programs; they also incorporate the concepts of abstraction and encapsulation.
+* Test files (test_fan.py, test_car.py, and test_pet.py) are the files that need to be run in order to execute the programs. These are the methods.
+* User-interface files (fan_ui.py, pet_ui.py) were also added to make the programs more organized.
+* The progs_design file includes the designs that can be used in the programs, such as the header and footer.
+
+
+## Installation
+git bash installation:
+
+    git clone [link]
+
+    cd [project name]
+
+    npm install
+
+To smoothly run the program, install or download the following modules:
+
+    colorama (pip install colorama)
+    tqdm (pip install tqdm)
+    tkinter (pip install tkinter) (for files with tkinter)
+    
+(easiest way to install is through pip)

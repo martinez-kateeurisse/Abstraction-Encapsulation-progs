@@ -3,9 +3,14 @@
 #Import fan class
 from fan_class import Fan
 from fan_ui import UserInterface
+from progs_design import ProgramDesign 
 
 #Initializing class
 ui = UserInterface()
+design = ProgramDesign()
+
+#Program header
+design.fan_header()
 
 #Create two fan objects
 #Object 1

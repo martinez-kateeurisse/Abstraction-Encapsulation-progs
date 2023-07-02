@@ -3,6 +3,13 @@
 
 #Import class
 from car_class import Car
+from progs_design import ProgramDesign 
+
+#Initialize class variable
+design = ProgramDesign()
+
+#Program header
+design.car_header()
 
 #Create car object
 test_car = Car(2020,"BMW")

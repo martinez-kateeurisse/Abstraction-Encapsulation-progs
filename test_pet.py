@@ -5,9 +5,14 @@
 #Import classes
 from pet_class import Pet
 from pet_ui import UserInterface
+from progs_design import ProgramDesign 
 
 #Initialize class
 ui = UserInterface()
+design = ProgramDesign()
+
+#Program header
+design.pet_header()
 
 #Setting pet's name through user's input
 ui.pet_name()

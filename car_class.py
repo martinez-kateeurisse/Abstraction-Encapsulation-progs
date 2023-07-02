@@ -32,6 +32,8 @@ class Car():
     def accelerate(self, speed):
         self.__speed = speed + 5
 #Create break method
+    def brake(self, speed):
+        self.__speed = speed - 5
 #Return the speed 
 
 #Next, design a program that creates a Car object then calls the accelerate method five times.

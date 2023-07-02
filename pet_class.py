@@ -27,10 +27,10 @@
 class Pet():
 #Add a constructor
     def __init__ (self, name, animal_type, age):
-#Create data attributes
-    #Pet name
-    #Animal type
-    #Pet age
+    #Create data attributes
+        self.__name = name  #Pet name
+        self.__animal_type = animal_type  #Animal type
+        self.__age = age    #Pet age
 #Create methods
     #Setters
         #Name

@@ -7,6 +7,7 @@
  
 #Create an object of the classs
     # Ask user to enter the name
+name = input("Please enter the pet's name: ")
     # Ask user to enter the type
     # Ask user to enter the age
 #Store the data as object attributes

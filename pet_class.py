@@ -26,6 +26,7 @@
 #Create a class
 class Pet():
 #Add a constructor
+    def __init__ (self, name, animal_type, age):
 #Create data attributes
     #Pet name
     #Animal type

@@ -1,5 +1,6 @@
 #Kate Eurisse Martinez_BSCPE 1-5_Abstraction & Encapsulation -Program 3
 
+#Program Instructions
 #Write a class named Pet, which should have the following data attributes:
 #• _ _name (for the name of a pet)
 #• _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)
@@ -20,3 +21,20 @@
 #This method returns the value of the _ _age field.
 
 #Once you have written the class, write a program that creates an object of the class and prompts the user to enter the name, type, and age of his or her pet. This data should be stored as the object’s attributes. Use the object’s accessor methods to retrieve the pet’s name, type, and age and display this data on the screen.
+
+#Pseudocode
+#Create a class 
+#Add a constructor
+#Create data attributes
+    #Pet name
+    #Animal type
+    #Pet age
+#Create methods
+    #Setters
+        #Name
+        #Animal type
+        #Age
+    #Getters
+        #Name
+        #Animal type
+        #Age

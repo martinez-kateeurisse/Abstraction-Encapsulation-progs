@@ -10,13 +10,20 @@ from pet_class import Pet
 pet = Pet(" "," "," ")
 
 #Create an object of the classs
-    # Ask user to enter the name
+# Ask user to enter the name
 name = input("Please enter the pet's name: ")
+#Set the name based on user's input
 pet.set_name(name)
-print(pet.get_name())
-    # Ask user to enter the type
+
+# Ask user to enter the type
 animal_type = input("Please enter the pet's animal type: ")
-    # Ask user to enter the age
+#Set the animal type based on user's input
+pet.set_animal_type(animal_type)
+
+# Ask user to enter the age
 age = float(input("Please enter pet's age: "))
+#Set the nage base on user's input
+pet.set.age(age)
 
 #Use methods to retrieve and display output
+#print(pet.get_name())

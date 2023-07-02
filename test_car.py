@@ -5,7 +5,9 @@
 
 #Import class
 from car_class import Car
+
 #Create car object
+test_car = Car(2020,"BMW")
 #Call the accelerate method (5 times)
     #Get speed (each time)
     #Display speed (each time)

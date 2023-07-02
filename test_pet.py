@@ -21,7 +21,7 @@ ui.pet_name()
 ui.pet_type()
 #Setting pet's age through user's input
 ui.pet_age()
-
+ 
 #Loading bar
 design.details_loading()
 

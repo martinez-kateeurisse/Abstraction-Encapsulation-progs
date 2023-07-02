@@ -81,5 +81,3 @@ class ProgramDesign():
 
             # Clear the previous line and print the cat
             print('\033[F' + cat)
-pd = ProgramDesign()
-pd.details_loading()

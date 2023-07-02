@@ -3,7 +3,7 @@
 #Import fan class
 from pet_class import Pet
 from colorama import Back, Fore, Style 
-
+from pyfiglet import Figlet
 #Create a class
 class UserInterface():
     #Initialize object values to store the data 
@@ -31,11 +31,28 @@ class UserInterface():
 
     #Displaying pet's details
     def pet_details(self):
-        print(f"{Fore.LIGHTYELLOW_EX}\nPET DETAILS\n")
-        print(f"{Fore.LIGHTCYAN_EX}Pet's Name: ", self.pet.get_name())
-        print(f"{Fore.LIGHTCYAN_EX}Pet's Animal Type: ", self.pet.get_animal_type())
-        print(f"{Fore.LIGHTCYAN_EX}Pet's Age: ", self.pet.get_age())  
+        header = Figlet(font='bubble')
+        title = Figlet(font='digital')
+        info = Figlet(font = 'larry3d')
+        pet_details = header.renderText("PET DETAILS")
 
+        name_title = title.renderText("Pet's Name: ")
+        name_output = info.renderText(self.pet.get_name())
+        type_title = title.renderText("Pet's Animal Type: ")
+        type_output = info.renderText(self.pet.get_animal_type())
+        age_title = title.renderText("Pet's Age: ") 
+        age_output = info.renderText(str(self.pet.get_age()))
+
+        # Print the ASCII art
+        print(Fore.LIGHTYELLOW_EX + pet_details)
+        print(Fore.LIGHTCYAN_EX + name_title)
+        print(Fore.LIGHTRED_EX + name_output)
+        print(Fore.LIGHTCYAN_EX + type_title)
+        print(Fore.LIGHTRED_EX + type_output)
+        print(Fore.LIGHTCYAN_EX + age_title) 
+        print(Fore.LIGHTRED_EX + age_output)
+
+    #Displaying output when executing in pygame
     def pet_detail(self):
         details = "\nPET DETAILS\n"
         details += f"Pet's Name: {self.pet.get_name()}\n"

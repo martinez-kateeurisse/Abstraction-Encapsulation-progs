@@ -17,5 +17,7 @@ for i in range (5):
     #Display speed (each time)
     print(speed)
 #Call the brake method (5 times)
+for i in range (5):
+    test_car.brake()
     #Get speed (each time)
     #Display speed (each time)

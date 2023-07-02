@@ -4,7 +4,7 @@
 #After each call to the brake method, get the current speed of the car and display it.
 
 #Import class
-
+from car_class import Car
 #Create car object
 #Call the accelerate method (5 times)
     #Get speed (each time)

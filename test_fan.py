@@ -15,9 +15,9 @@ design.loading_bar()
 
 #Create two fan objects
 #Object 1
-ui.obj1_display()
+ui.obj1_displays()
 #Object 2
-ui.obj2_display()
+ui.obj2_displays()
 
 #Program footer
 design.program_footer()

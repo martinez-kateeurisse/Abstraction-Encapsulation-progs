@@ -23,7 +23,10 @@ pet.set_animal_type(animal_type)
 # Ask user to enter the age
 age = float(input("Please enter pet's age: "))
 #Set the nage base on user's input
-pet.set.age(age)
+pet.set_age(age)
 
 #Use methods to retrieve and display output
-#print(pet.get_name())
+print("PET DETAILS")
+print("Pet's Name: ", pet.get_name())
+print("Pet's Animal Type: ", pet.get_animal_type())
+print("Pet's Age: ", pet.get_age())

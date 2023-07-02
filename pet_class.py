@@ -40,6 +40,9 @@ class Pet():
     def set_age(self, age): #Age
         self.__age = age
     #Getters
-        #Name
-        #Animal type
-        #Age
+    def get_name(self): #Name
+        return self.__name
+    def get_animal_type(self):  #Animal type
+        return self.__animal_type
+    def get_age(self):  #Age
+        return self.__age

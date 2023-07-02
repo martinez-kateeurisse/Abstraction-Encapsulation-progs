@@ -1,4 +1,4 @@
-#Write a test program
+#This python file serves as the testing program of the fan class
 
 #Import fan class
 from fan_class import Fan

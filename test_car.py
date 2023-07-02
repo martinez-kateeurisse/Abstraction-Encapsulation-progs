@@ -11,6 +11,7 @@ design = ProgramDesign()
 
 #Program header
 design.car_header()
+design.loading_bar()
 
 #Create car object
 test_car = Car(2020,"BMW")
@@ -23,14 +24,16 @@ for i in range (5):
     #Display speed (each time)
     print(f"{Fore.LIGHTGREEN_EX}\nAccelerating...(+ 5 speed)\n")
     print(f"{Fore.LIGHTYELLOW_EX}Current Speed: " + str(speed))
+    print(speed*"▄▄")
 #Call the brake method (5 times)
 for i in range (5):
     test_car.brake()
     #Get speed (each time)
-    speed = test_car.get_speed()    
+    speed = test_car.get_speed()   
     #Display speed (each time)
     print(f"{Fore.LIGHTGREEN_EX}\nBrake...(- 5 speed)\n")
     print(f"{Fore.LIGHTYELLOW_EX}Current Speed: " + str(speed))
+    print(speed*"▄▄") 
 
 #Program footer
 design.program_footer()

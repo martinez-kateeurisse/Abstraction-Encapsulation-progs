@@ -13,7 +13,7 @@ class UserInterface():
     #Asking for user inputs and setting values
     def pet_name (self):
         # Ask user to enter the name
-        self.name = input(f"{Fore.LIGHTMAGENTA_EX}Please enter the pet's name: "+ Fore.RESET)
+        self.name = input(f"{Fore.LIGHTMAGENTA_EX}\nPlease enter the pet's name: "+ Fore.RESET)
         #Set the name based on user's input
         self.pet.set_name(self.name)
 
@@ -34,4 +34,12 @@ class UserInterface():
         print(f"{Fore.LIGHTYELLOW_EX}\nPET DETAILS\n")
         print(f"{Fore.LIGHTCYAN_EX}Pet's Name: ", self.pet.get_name())
         print(f"{Fore.LIGHTCYAN_EX}Pet's Animal Type: ", self.pet.get_animal_type())
-        print(f"{Fore.LIGHTCYAN_EX}Pet's Age: ", self.pet.get_age())       
+        print(f"{Fore.LIGHTCYAN_EX}Pet's Age: ", self.pet.get_age())  
+
+    def pet_detail(self):
+        details = "\nPET DETAILS\n"
+        details += f"Pet's Name: {self.pet.get_name()}\n"
+        details += f"Pet's Animal Type: {self.pet.get_animal_type()}\n"
+        details += f"Pet's Age: {self.pet.get_age()}"
+        return details
+         

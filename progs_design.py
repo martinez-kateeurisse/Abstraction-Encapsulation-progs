@@ -1,7 +1,8 @@
 #Importing color module
 from colorama import Back, Fore, Style 
+
 #Create Class
-class ProgramDesign:
+class ProgramDesign():
     #Programs' headers
     # Car class program header
     def car_header (self):
@@ -53,3 +54,9 @@ class ProgramDesign:
                                         ▀█▀ █░█ ▄▀█ █▄░█ █▄▀   █▄█ █▀█ █░█ █
                                         ░█░ █▀█ █▀█ █░▀█ █░█   ░█░ █▄█ █▄█ ▄""" + Fore.WHITE, """
                                                 -🅗🅐🅥🅔 🅐 🅖🅡🅔🅐🅣 🅓🅐🅨-""")
+    def loading_bar(self):
+        from tqdm import tqdm
+        from time import sleep
+        print("LOADING PROGRAM")
+        for i in tqdm(range(50)):
+            sleep(0.05)

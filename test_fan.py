@@ -11,6 +11,7 @@ design = ProgramDesign()
 
 #Program header
 design.fan_header()
+design.loading_bar()
 
 #Create two fan objects
 #Object 1

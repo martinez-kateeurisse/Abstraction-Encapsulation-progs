@@ -2,29 +2,19 @@
 
 #A python program that lets the user input the pet's name, type ,and age. Then, displaying them through certain methods.
 
+#Import classes
 from pet_class import Pet
+from pet_ui import UserInterface
 
-#Store the data as object attributes
-pet = Pet(" "," "," ")
+#Initialize class
+ui = UserInterface()
 
-#Create an object of the classs
-# Ask user to enter the name
-name = input("Please enter the pet's name: ")
-#Set the name based on user's input
-pet.set_name(name)
+#Setting pet's name through user's input
+ui.pet_name()
+#Setting pet's animal type through user's input
+ui.pet_type()
+#Setting pet's age through user's input
+ui.pet_age()
 
-# Ask user to enter the type
-animal_type = input("Please enter the pet's animal type: ")
-#Set the animal type based on user's input
-pet.set_animal_type(animal_type)
-
-# Ask user to enter the age
-age = float(input("Please enter pet's age: "))
-#Set the nage base on user's input
-pet.set_age(age)
-
-#Use methods to retrieve and display output
-print("PET DETAILS")
-print("Pet's Name: ", pet.get_name())
-print("Pet's Animal Type: ", pet.get_animal_type())
-print("Pet's Age: ", pet.get_age())
+#Displaying pet's details
+ui.pet_details()

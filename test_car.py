@@ -20,4 +20,6 @@ for i in range (5):
 for i in range (5):
     test_car.brake()
     #Get speed (each time)
+    speed = test_car.get_speed()    
     #Display speed (each time)
+    print(speed)
